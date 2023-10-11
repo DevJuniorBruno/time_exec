@@ -1,0 +1,9 @@
+.animationCel{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+    width: 200px;
+    pointer-events:none;
+    text-align: center;
+}

@@ -1,0 +1,10 @@
+.animationLo{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column-reverse;
+    width: 200px;
+    pointer-events:none;
+    text-align: center;
+}
+

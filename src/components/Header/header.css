@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@1,700&family=Zilla+Slab&display=swap');
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height: 13vh;
+  background-color: #fa623b;
+  position: fixed;
+  z-index: 999;
+  margin: 0;
+}
+
+li{
+  list-style: none;
+  font-size: 14px;
+  font-family: 'Inria Serif', serif;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.header__menu{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 3rem;   
+}
+.header__toggler{
+  display:none;
+  flex-direction: column;
+  width: 3em;
+  height: 30px;
+  background: transparent ;
+  border: none;
+  padding: 2px;
+
+}
+
+button{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+button span{
+  width: 80%;
+  height: 5px;
+  background: #fff;
+  transition: 0.3s ease-in;
+  border-radius: 50px;
+}
+
+
+
+@media screen and (max-width: 768px){
+  .header__toggler{
+      display: flex;
+      cursor: pointer;
+  }
+  .header__menu{
+      position: fixed;
+      top: 10vh;
+      right: 0;
+      width: 50vw;
+      height: 100%;
+      background: #000;
+      flex-direction: column;
+      transform: translateX(100%);
+      transition: 0.5s ease-in;
+      padding-bottom:15vh;
+  }
+}
+
+/*header Active CLass*/
+.header__active{
+  transform:translateX(0)
+}
+
+
+button.toggle span:nth-child(1){
+  transform: rotate(-45deg) translate(-8px, 6px);
+}
+
+button.toggle span:nth-child(2){
+  opacity: 0;
+}
+
+button.toggle span:nth-child(3){
+  transform: rotate(45deg) translate(-9px, -7px);
+}
