@@ -68,7 +68,9 @@ function Home() {
 
                     </div>
 
-                    <img src={motoboyEntrega} alt="entrega do motoboy"
+                    <img src={motoboyEntrega} 
+                    className='motoboyEntrega' 
+                    alt="entrega do motoboy"
                     width={400} />
                     </div>
                 </section>

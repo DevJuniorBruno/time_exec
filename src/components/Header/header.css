@@ -63,15 +63,16 @@ button span{
   }
   .header__menu{
       position: fixed;
-      top: 10vh;
+      top: 12vh;
       right: 0;
       width: 50vw;
-      height: 100%;
-      background: #000;
+      height: 90%;
+      background-color: #fa623b;
       flex-direction: column;
       transform: translateX(100%);
       transition: 0.5s ease-in;
-      padding-bottom:15vh;
+      padding-bottom:25vh;
+      justify-content: space-evenly;
   }
 }
 

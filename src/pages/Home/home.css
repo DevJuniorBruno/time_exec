@@ -176,7 +176,7 @@ section.module.parallax-1 {
     }
 }
 
-@media (max-width:650px) {
+@media (max-width:850px) {
     section.module_content {
         display: flex;
         flex-direction: column;
@@ -209,4 +209,33 @@ section.module.parallax-1 {
         display: flex;
         justify-content: center;
     }
+
+
+
+    .apresentacao{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .infoApresentacao{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+    }
+    
+    .plano{
+        flex-direction: column;
+    }
+    .planoInfo{
+        width: 100%;
+    }
+    .motoboy{
+        width: 100%;
+    }
+    .motoboyEntrega{
+        width: 100%;
+    }
+
 }
