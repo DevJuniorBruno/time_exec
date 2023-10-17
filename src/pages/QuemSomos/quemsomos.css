@@ -147,3 +147,40 @@
     background-color: green;
     border: 1.5px solid black ; 
 }
+
+@media(max-width:850px){
+    .infoQS{
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+    .textInfo{
+        width: 80%;
+    }
+    .textInfoRgt{
+        width: 80%;
+    }
+    .conceito{
+        flex-direction: column;
+        width: 100%;
+        height: 100%;
+    }
+    .boxConceito{
+        width: 70%;
+    }
+    .numbersTitle{
+        width: 80%;
+        text-align: center;
+    }
+    .containerFE{
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .fe{
+        width: 60%;
+        gap: 20px;
+    }
+    .btnWSTAP{
+        width: 100%;
+    }
+}
