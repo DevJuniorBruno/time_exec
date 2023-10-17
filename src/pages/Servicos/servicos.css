@@ -163,3 +163,62 @@
     background-color: green;
     border: 1.5px solid black ; 
 }
+
+.mtbService{
+    display: none;
+}
+
+@media(max-width:850px){
+    .infoServices{
+        flex-direction: column;
+        text-align:center;
+        padding-bottom: 50px;
+    }
+    .textInfo h2{
+        width: 100%;
+        text-align: center;
+    }
+    .mtbServices{
+        display: none;
+    }
+    .mtbService{
+        display: block;
+        width: 100%;
+    }
+    .services{
+        display: flex;
+        height: 1475px;
+        width: 100%;
+        text-align: center;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-top: 30px;
+    }
+    .services02{
+        width: 100%;
+        height: 3000px;
+        gap: 20px;
+    }
+    .containerBoxServices{
+        display: flex;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .boxServices{
+        width: 80%;
+    }
+    .boxServices02{
+        width: 80%;
+    }
+    .contrate{
+        text-align: center;
+        gap: 20px;
+    }
+    .contentLottie{
+        flex-direction: column;
+    }
+    .btnWSTA2{
+        width: 80%;
+    }
+}

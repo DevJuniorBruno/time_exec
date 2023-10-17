@@ -50,6 +50,7 @@ export default function Servicos() {
                     </button>
                 </div>
             </div>
+                <img alt='motoboy_services' src={SErvicesMTB} className='mtbService' />
 
             <div className='services' >
                 <h2>---- Melhor custo benefício para você ou a sua empresa ----</h2>
