@@ -8,10 +8,10 @@
 
 .map{
   margin-top: 50px;
-  height: 400px;
+  margin-bottom:50px;
+  height: 350px;
   display: flex;
   align-items: center;
-  justify-content: center;
   width: 100%;
 }
 
